@@ -77,7 +77,7 @@ The system intentionally does **not** pretend that a directory was crawled when 
 
 `--limit 100` means at most 100 discovered candidates enter the verification workflow. The final `records` count can be lower because duplicates, unreachable official URLs, blocked sources, and acceptance failures are removed. A 100-candidate run producing 80 records is therefore expected and should be investigated through `metrics`, `source_health`, and the data-quality report rather than treated as a failure.
 
-## v7.0 input-dataset verification fixes
+## v1.0 input-dataset verification fixes
 
 - Normalizes common source headers (`toolName`, `tool_name`, `title`, `websiteUrl`, `website_url`, `site`, `homepage`, `productUrl`, etc.) before the identity gate.
 - Preserves all original source columns while adding canonical `name`, `official_url`, and `company` fields.
