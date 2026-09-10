@@ -1,0 +1,71 @@
+tools:
+  quality: 25
+  usefulness: 20
+  adoption: 15
+  activity: 15
+  maturity: 10
+  recency: 5
+  differentiation: 5
+  verifiability: 5
+companies:
+  relevance_ai_centrality: 30
+  usefulness: 15
+  adoption: 15
+  activity: 10
+  maturity: 10
+  recency: 5
+  differentiation: 5
+  verifiability: 10
+agents:
+  functionality: 25
+  usefulness: 20
+  adoption: 15
+  activity: 15
+  maturity: 10
+  recency: 5
+  differentiation: 5
+  verifiability: 5
+mcp:
+  usefulness: 30
+  functionality: 25
+  activity: 15
+  adoption: 10
+  documentation: 5
+  recency: 5
+  reliability: 5
+  differentiation: 5
+robots:
+  capability: 25
+  usefulness: 20
+  deployment: 15
+  maturity: 15
+  adoption: 10
+  recency: 5
+  documentation: 5
+  differentiation: 5
+devices:
+  ai_capability: 25
+  quality: 20
+  utility: 15
+  availability: 15
+  adoption: 10
+  innovation: 5
+  recency: 5
+  verifiability: 5
+models:
+  capability: 30
+  usefulness: 20
+  adoption: 15
+  benchmarks: 10
+  activity: 10
+  technical: 5
+  documentation: 5
+  differentiation: 5
+news:
+  source_credibility: 25
+  coverage: 15
+  company_importance: 15
+  impact: 20
+  trending: 5
+  recency: 10
+  relevance: 10

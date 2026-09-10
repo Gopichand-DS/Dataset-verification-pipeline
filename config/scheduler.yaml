@@ -1,0 +1,27 @@
+news:
+  frequency: "twice_daily"
+  target_min: 20
+  target_max: 30
+  pipeline:
+    - discover
+    - fetch
+    - extract
+    - normalize
+    - filter
+    - cluster_events
+    - verify
+    - rank
+    - select
+    - publish
+
+verification:
+  retry_attempts: 3
+  timeout_seconds: 20
+  auto_publish_requires_official_verification: true
+
+review:
+  queue_statuses:
+    - needs_review
+    - conflict
+    - unverifiable
+    - ambiguous_duplicate

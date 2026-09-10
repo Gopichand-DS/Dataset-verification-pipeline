@@ -1,0 +1,120 @@
+tools:
+  primary:
+    - name: There's An AI For That
+      url: https://theresanaiforthat.com/tools/
+      type: discovery
+    - name: Creati.ai
+      url: https://creati.ai/ai-tools/
+      type: discovery
+  secondary:
+    - name: Futurepedia
+      url: https://www.futurepedia.io/
+      type: discovery
+    - name: ToolPilot
+      url: https://www.toolpilot.ai/
+      type: discovery
+
+companies:
+  primary:
+    - name: There's An AI For That
+      url: https://theresanaiforthat.com/
+      type: discovery
+  secondary:
+    - name: Crunchbase AI
+      url: https://www.crunchbase.com/hub/artificial-intelligence-companies
+      type: enrichment
+    - name: Tracxn
+      url: https://tracxn.com/
+      type: enrichment
+
+agents:
+  primary:
+    - name: Creati.ai AI Agents
+      url: https://creati.ai/ai-agents/
+      type: discovery
+  secondary:
+    - name: Futurepedia
+      url: https://www.futurepedia.io/
+      type: discovery
+    - name: Product Hunt
+      url: https://www.producthunt.com/
+      type: discovery
+
+mcp:
+  primary:
+    - name: Creati.ai MCP Servers
+      url: https://creati.ai/mcp/server/
+      type: discovery
+    - name: Creati.ai MCP Clients
+      url: https://creati.ai/mcp/client/
+      type: discovery
+  secondary:
+    - name: MCP Registry
+      url: https://registry.modelcontextprotocol.io/
+      type: verification
+    - name: GitHub
+      url: https://github.com/
+      type: verification
+    - name: Glama
+      url: https://glama.ai/
+      type: discovery
+
+robots:
+  primary:
+    - name: There's An AI For That Robots
+      url: https://theresanaiforthat.com/robots/
+      type: discovery
+    - name: Robot Observatory
+      url: https://robotobservatory.com/robots
+      type: discovery
+
+devices:
+  primary:
+    - name: There's An AI For That Devices
+      url: https://theresanaiforthat.com/devices/
+      type: discovery
+    - name: Physical AI Devices
+      url: https://physicalaidevices.com/
+      type: discovery
+
+models:
+  primary:
+    - name: There's An AI For That Models
+      url: https://theresanaiforthat.com/models/
+      type: discovery
+    - name: Models.dev
+      url: https://models.dev/
+      type: enrichment
+  secondary:
+    - name: Hugging Face
+      url: https://huggingface.co/models
+      type: discovery
+    - name: OpenRouter
+      url: https://openrouter.ai/
+      type: enrichment
+    - name: Artificial Analysis
+      url: https://artificialanalysis.ai/
+      type: enrichment
+
+news:
+  primary:
+    - name: OpenAI News
+      url: https://openai.com/news/
+      type: official
+    - name: Google AI
+      url: https://blog.google/technology/ai/
+      type: official
+    - name: Microsoft AI
+      url: https://blogs.microsoft.com/ai/
+      type: official
+    - name: NVIDIA News
+      url: https://nvidianews.nvidia.com/
+      type: official
+    - name: Reuters Technology
+      url: https://www.reuters.com/technology/
+      type: publication
+    - name: TechCrunch AI
+      url: https://techcrunch.com/category/artificial-intelligence/
+      type: publication
+
+  rss: []

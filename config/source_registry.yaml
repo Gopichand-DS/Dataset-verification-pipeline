@@ -1,0 +1,124 @@
+
+tools:
+  primary:
+    - name: TheresAnAIForThat
+      url: https://theresanaiforthat.com/tools/
+      method: public_web
+    - name: CreatiAI
+      url: https://creati.ai/ai-tools/
+      method: public_web
+  secondary:
+    - name: Futurepedia
+      method: public_web
+    - name: Product Hunt
+      method: public_web
+
+companies:
+  primary:
+    - name: TheresAnAIForThat
+      url: https://theresanaiforthat.com/
+      method: public_web
+  secondary:
+    - name: Crunchbase
+      method: public_web_or_api
+    - name: Tracxn
+      method: public_web_or_api
+    - name: Product Hunt
+      method: public_web
+
+agents:
+  primary:
+    - name: CreatiAI Agents
+      url: https://creati.ai/ai-agents/
+      method: public_web
+  secondary:
+    - name: Futurepedia
+      method: public_web
+    - name: GitHub
+      method: public_web_or_api
+    - name: Product Hunt
+      method: public_web
+
+mcp:
+  primary:
+    - name: CreatiAI MCP Servers
+      url: https://creati.ai/mcp/server/
+      method: public_web
+    - name: CreatiAI MCP Clients
+      url: https://creati.ai/mcp/client/
+      method: public_web
+  secondary:
+    - name: Official MCP Registry
+      method: public_web_or_api
+    - name: GitHub
+      method: public_web_or_api
+    - name: Glama
+      method: public_web
+    - name: Smithery
+      method: public_web
+
+robots:
+  primary:
+    - name: TheresAnAIForThat Robots
+      url: https://theresanaiforthat.com/robots/
+      method: public_web
+    - name: Robot Observatory
+      url: https://robotobservatory.com/robots
+      method: public_web
+  secondary:
+    - name: Manufacturer sites
+      method: public_web
+    - name: GitHub
+      method: public_web_or_api
+    - name: University/lab pages
+      method: public_web
+
+devices:
+  primary:
+    - name: TheresAnAIForThat Devices
+      url: https://theresanaiforthat.com/devices/
+      method: public_web
+    - name: Physical AI Devices
+      url: https://physicalaidevices.com/
+      method: public_web
+  secondary:
+    - name: Manufacturer sites
+      method: public_web
+    - name: Product Hunt
+      method: public_web
+
+models:
+  primary:
+    - name: TheresAnAIForThat Models
+      url: https://theresanaiforthat.com/models/
+      method: public_web
+    - name: Models.dev
+      url: https://models.dev/
+      method: public_web
+  secondary:
+    - name: Hugging Face
+      method: public_web_or_api
+    - name: GitHub
+      method: public_web_or_api
+    - name: OpenRouter
+      method: public_web_or_api
+    - name: Artificial Analysis
+      method: public_web
+
+news:
+  primary:
+    - name: Official company newsrooms
+      method: rss_or_public_web
+    - name: Reuters
+      method: rss_or_public_web
+    - name: Financial Times
+      method: rss_or_public_web
+  secondary:
+    - name: TechCrunch
+      method: rss_or_public_web
+    - name: VentureBeat
+      method: rss_or_public_web
+    - name: The Verge
+      method: rss_or_public_web
+    - name: Wired
+      method: rss_or_public_web

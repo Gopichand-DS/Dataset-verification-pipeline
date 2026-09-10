@@ -1,0 +1,16 @@
+# Optional source-specific adapters.
+# type: html | json | sitemap | rss | registry
+# This file supplements, rather than replaces, config/sources.yaml.
+sources:
+  - name: example-json
+    module: tools
+    type: json
+    url: https://example.com/api/tools
+    items_key: items
+    enabled: false
+
+  - name: example-sitemap
+    module: tools
+    type: sitemap
+    url: https://example.com/sitemap.xml
+    enabled: false

@@ -1,0 +1,19 @@
+pandas>=2.2
+pydantic>=2.8
+python-dotenv>=1.0
+requests>=2.32
+beautifulsoup4>=4.12
+feedparser>=6.0
+rapidfuzz>=3.9
+scikit-learn>=1.5
+sqlalchemy>=2.0
+tenacity>=9.0
+trafilatura>=1.12
+tldextract>=5.1
+python-dateutil>=2.9
+pyyaml>=6.0
+pytest>=8.0
+
+
+# if you want to export in the csv file then run this below command in your terminal
+#" python -c "import json,pandas as pd; d=json.load(open(r'data\output\tools_master.json',encoding='utf-8')); r=d.get('records',d if isinstance(d,list) else []); pd.DataFrame(r).to_csv(r'data\output\tools_master.csv',index=False,encoding='utf-8-sig'); print(f'Exported {len(r)} records to data\output\tools_master.csv')"

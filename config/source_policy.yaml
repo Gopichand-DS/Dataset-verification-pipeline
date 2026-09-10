@@ -1,0 +1,22 @@
+policy:
+  discovery_is_not_verification: true
+  official_source_preferred: true
+  missing_verified_value: "leave_blank"
+  unverifiable_value: "leave_blank"
+  never_guess: true
+  collect_unnecessary_personal_data: false
+
+news:
+  daily_target_min: 20
+  daily_target_max: 30
+  deduplicate_by_event: true
+  official_sources_preferred: true
+
+targets:
+  tools: 1000
+  companies: 8000
+  agents: null
+  mcp: 10000
+  robots: 1000
+  devices: 1000
+  models: 2000
